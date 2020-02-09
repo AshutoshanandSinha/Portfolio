@@ -1,0 +1,208 @@
+Last login: Mon Feb  3 14:09:30 on console
+ashu@Ashutoshanands-MacBook-Pro ~ % cd Documents
+ashu@Ashutoshanands-MacBook-Pro Documents %
+ashu@Ashutoshanands-MacBook-Pro Documents %
+ashu@Ashutoshanands-MacBook-Pro Documents % cd Portfolio
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % ls
+Ashu			Portfolio		arrival-me.1.0.3.zip
+Ashutoshanand Sinha	Temp			html5up-massively.zip
+ashu@Ashutoshanands-MacBook-Pro Portfolio % cd Portfolio
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % ls
+css		favicon.png	inc		js
+demo.html	images		index.html
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git init
+Initialized empty Git repository in /Users/ashu/Documents/Portfolio/Portfolio/.git/
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git add .
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git commmit -m "Adding Files"
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git commit -m "Adding Files"
+[master (root-commit) faeb012] Adding Files
+ 136 files changed, 36276 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100755 css/default.css
+ create mode 100755 css/font-awesome/css/font-awesome.css
+ create mode 100755 css/font-awesome/css/font-awesome.min.css
+ create mode 100755 css/font-awesome/fonts/FontAwesome.otf
+ create mode 100755 css/font-awesome/fonts/fontawesome-webfont.eot
+ create mode 100755 css/font-awesome/fonts/fontawesome-webfont.svg
+ create mode 100755 css/font-awesome/fonts/fontawesome-webfont.ttf
+ create mode 100755 css/font-awesome/fonts/fontawesome-webfont.woff
+ create mode 100755 css/font-awesome/less/bordered-pulled.less
+ create mode 100755 css/font-awesome/less/core.less
+ create mode 100755 css/font-awesome/less/fixed-width.less
+ create mode 100755 css/font-awesome/less/font-awesome.less
+ create mode 100755 css/font-awesome/less/icons.less
+ create mode 100755 css/font-awesome/less/larger.less
+ create mode 100755 css/font-awesome/less/list.less
+ create mode 100755 css/font-awesome/less/mixins.less
+ create mode 100755 css/font-awesome/less/path.less
+ create mode 100755 css/font-awesome/less/rotated-flipped.less
+ create mode 100755 css/font-awesome/less/spinning.less
+ create mode 100755 css/font-awesome/less/stacked.less
+ create mode 100755 css/font-awesome/less/variables.less
+ create mode 100755 css/font-awesome/scss/_bordered-pulled.scss
+ create mode 100755 css/font-awesome/scss/_core.scss
+ create mode 100755 css/font-awesome/scss/_fixed-width.scss
+ create mode 100755 css/font-awesome/scss/_icons.scss
+ create mode 100755 css/font-awesome/scss/_larger.scss
+ create mode 100755 css/font-awesome/scss/_list.scss
+ create mode 100755 css/font-awesome/scss/_mixins.scss
+ create mode 100755 css/font-awesome/scss/_path.scss
+ create mode 100755 css/font-awesome/scss/_rotated-flipped.scss
+ create mode 100755 css/font-awesome/scss/_spinning.scss
+ create mode 100755 css/font-awesome/scss/_stacked.scss
+ create mode 100755 css/font-awesome/scss/_variables.scss
+ create mode 100755 css/font-awesome/scss/font-awesome.scss
+ create mode 100755 css/fontello/css/animation.css
+ create mode 100755 css/fontello/css/fontello-codes.css
+ create mode 100755 css/fontello/css/fontello-embedded.css
+ create mode 100755 css/fontello/css/fontello-ie7-codes.css
+ create mode 100755 css/fontello/css/fontello-ie7.css
+ create mode 100755 css/fontello/css/fontello.css
+ create mode 100755 css/fontello/font/fontello.eot
+ create mode 100755 css/fontello/font/fontello.svg
+ create mode 100755 css/fontello/font/fontello.ttf
+ create mode 100755 css/fontello/font/fontello.woff
+ create mode 100755 css/fonts.css
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-bold-webfont.eot
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-bold-webfont.svg
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-bold-webfont.ttf
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-bold-webfont.woff
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-italic-webfont.eot
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-italic-webfont.svg
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-italic-webfont.ttf
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-italic-webfont.woff
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-regular-webfont.eot
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-regular-webfont.svg
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-regular-webfont.ttf
+ create mode 100755 css/fonts/librebaskerville/librebaskerville-regular-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-Bold-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-Bold-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-Bold-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-Bold-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-BoldItalic-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-BoldItalic-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-BoldItalic-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-BoldItalic-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBold-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBold-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBold-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBold-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-Italic-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-Italic-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-Italic-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-Italic-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-Light-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-Light-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-Light-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-Light-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-LightItalic-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-LightItalic-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-LightItalic-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-LightItalic-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-Regular-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-Regular-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-Regular-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-Regular-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-Semibold-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-Semibold-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-Semibold-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-Semibold-webfont.woff
+ create mode 100755 css/fonts/opensans/OpenSans-SemiboldItalic-webfont.eot
+ create mode 100755 css/fonts/opensans/OpenSans-SemiboldItalic-webfont.svg
+ create mode 100755 css/fonts/opensans/OpenSans-SemiboldItalic-webfont.ttf
+ create mode 100755 css/fonts/opensans/OpenSans-SemiboldItalic-webfont.woff
+ create mode 100755 css/layout.css
+ create mode 100755 css/magnific-popup.css
+ create mode 100755 css/media-queries.css
+ create mode 100755 demo.html
+ create mode 100755 favicon.png
+ create mode 100755 images/header-background.jpg
+ create mode 100755 images/loader.gif
+ create mode 100755 images/overlay-bg.png
+ create mode 100755 images/overlay-zoom.png
+ create mode 100755 images/portfolio/coffee.jpg
+ create mode 100755 images/portfolio/console.jpg
+ create mode 100755 images/portfolio/farmerboy.jpg
+ create mode 100755 images/portfolio/girl.jpg
+ create mode 100755 images/portfolio/into-the-light.jpg
+ create mode 100755 images/portfolio/judah.jpg
+ create mode 100755 images/portfolio/modals/m-coffee.jpg
+ create mode 100755 images/portfolio/modals/m-console.jpg
+ create mode 100755 images/portfolio/modals/m-farmerboy.jpg
+ create mode 100755 images/portfolio/modals/m-girl.jpg
+ create mode 100755 images/portfolio/modals/m-intothelight.jpg
+ create mode 100755 images/portfolio/modals/m-judah.jpg
+ create mode 100755 images/portfolio/modals/m-origami.jpg
+ create mode 100755 images/portfolio/modals/m-retrocam.jpg
+ create mode 100755 images/portfolio/origami.jpg
+ create mode 100755 images/portfolio/retrocam.jpg
+ create mode 100755 images/profilepic.jpg
+ create mode 100755 images/sample-image.jpg
+ create mode 100755 images/testimonials-bg.jpg
+ create mode 100755 inc/sendEmail.php
+ create mode 100755 index.html
+ create mode 100755 js/init.js
+ create mode 100755 js/jquery-1.10.2.min.js
+ create mode 100755 js/jquery-migrate-1.2.1.min.js
+ create mode 100755 js/jquery.fittext.js
+ create mode 100755 js/jquery.flexslider.js
+ create mode 100755 js/magnific-popup.js
+ create mode 100755 js/modernizr.js
+ create mode 100755 js/waypoints.js
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git remote add origin https://github.com/Geek8work/Portfolio
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git push origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Geek8work/Portfolio/' not found
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git push origin master
+Username for 'https://github.com': geek8work
+Password for 'https://geek8work@github.com':
+remote: Repository not found.
+fatal: repository 'https://github.com/Geek8work/Portfolio/' not found
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git push origin master
+Enumerating objects: 154, done.
+Counting objects: 100% (154/154), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (153/153), done.
+Writing objects: 100% (154/154), 5.23 MiB | 712.00 KiB/s, done.
+Total 154 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas: 100% (14/14), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Geek8Work/Portfolio.git
+To https://github.com/Geek8work/Portfolio
+ * [new branch]      master -> master
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git pull origin master
+From https://github.com/Geek8work/Portfolio
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio % git push origin master
+Everything up-to-date
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
+ashu@Ashutoshanands-MacBook-Pro Portfolio %
